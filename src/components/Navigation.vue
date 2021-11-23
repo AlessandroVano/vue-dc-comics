@@ -47,11 +47,11 @@ section {
     display: flex;
 }
 img {
-   width: 50px;
+   width: 35px;
    object-fit: contain;
 }
 span {
-    margin-top: 1.8rem;
+    margin-top: 1.2rem;
     font-size: 12px;
     padding-left: 15px;
     color: white;

@@ -54,7 +54,7 @@ header {
 ul {
     display: flex;
     list-style: none;
-    margin: 2.5rem 0 4rem;
+    margin: 1.6rem 0 ;
 }
 a {
     display: inline-block;
@@ -66,6 +66,9 @@ a {
     &.active,
     &:hover {
         color: blue;
+    }
+    img {
+        width: 60px;
     }
 
 }
