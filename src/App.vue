@@ -1,5 +1,8 @@
 <template>
   <div id="app">
+
+  <body>
+    
    <!-- HEADER -->
      <Header />
    
@@ -14,7 +17,9 @@
    <footer>
      <ListContact />
      <Iscrizione />
+    
    </footer>
+  </body>
        
 
 
@@ -30,6 +35,7 @@ import ListContact from '@/components/ListContact.vue'
 import Iscrizione from '@/components/Iscrizione.vue'
 
 
+
 export default {
   name: 'App',
   components: {
@@ -38,6 +44,8 @@ export default {
        Navigation,
        ListContact,
        Iscrizione,
+      
+   
   },
 }
 
@@ -47,7 +55,9 @@ export default {
 @import '@/style/globals';
 @import '@/style/utilities';
 
-  
+  body {
+    background-color: black;
+  }
 
   
   

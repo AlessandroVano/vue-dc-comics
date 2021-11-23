@@ -1,4 +1,6 @@
 <template>
+<div class="sfondo">
+
 <header class="container">
     <a href="/">
     <img src="../assets/dc-logo.png" alt="dc-logo.png">
@@ -38,6 +40,7 @@
         </ul>
     </nav>
 </header>
+</div>
 </template>
 
 <script>
@@ -47,9 +50,13 @@ name: 'Header',
 </script>
 
 <style scoped lang="scss">
+.sfondo {
+     background-color: #fff;
+}
 header {
     display: flex;
    justify-content: space-between;
+  
 }
 ul {
     display: flex;
