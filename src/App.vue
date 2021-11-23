@@ -1,11 +1,12 @@
 <template>
   <div id="app">
    <!-- HEADER -->
-   <header>
      <Header />
-   </header>
+   
    <!-- MAIN -->
-   <main></main>
+   <main>
+    <Content />
+   </main>
 
    <!-- FOOTER -->
    <footer></footer>
@@ -18,12 +19,14 @@
 
 <script>
 import Header from '@/components/Header.vue'
+import Content from '@/components/Content.vue'
 
 
 export default {
   name: 'App',
   components: {
        Header,
+       Content,
   },
 }
 
