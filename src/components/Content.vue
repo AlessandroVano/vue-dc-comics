@@ -12,7 +12,7 @@ export default {
 
 <style scoped lang='scss'>
 section {
-    padding: 4rem 0;
+    padding: 2rem 0;
     background-color: black;
     color: white;
 }
