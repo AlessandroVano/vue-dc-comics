@@ -6,6 +6,8 @@
    <!-- MAIN -->
    <main>
     <Content />
+    
+    <Navigation />
    </main>
 
    <!-- FOOTER -->
@@ -20,6 +22,7 @@
 <script>
 import Header from '@/components/Header.vue'
 import Content from '@/components/Content.vue'
+import Navigation from '@/components/Navigation.vue'
 
 
 export default {
@@ -27,6 +30,7 @@ export default {
   components: {
        Header,
        Content,
+       Navigation,
   },
 }
 
