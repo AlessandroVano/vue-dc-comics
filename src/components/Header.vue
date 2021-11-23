@@ -1,7 +1,8 @@
 <template>
 <header class="container">
     <a href="/">
-    <img src="../assets/dc-logo.png" alt="dc-logo.png"></a>
+    <img src="../assets/dc-logo.png" alt="dc-logo.png">
+    </a>
     <nav>
         <ul>
             <li>
@@ -45,6 +46,28 @@ name: 'Header',
 }
 </script>
 
-<style>
+<style scoped lang="scss">
+header {
+    display: flex;
+   justify-content: space-between;
+}
+ul {
+    display: flex;
+    list-style: none;
+    margin: 2.5rem 0 4rem;
+}
+a {
+    display: inline-block;
+    padding: 1rem;
+    text-decoration: none;
+    font-weight: 501;
+    font-size: 12px;
+    color: black;
+    &.active,
+    &:hover {
+        color: blue;
+    }
+
+}
 
 </style>
