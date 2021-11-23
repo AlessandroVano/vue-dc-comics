@@ -6,12 +6,14 @@
    <!-- MAIN -->
    <main>
     <Content />
-    
+
     <Navigation />
    </main>
 
    <!-- FOOTER -->
-   <footer></footer>
+   <footer>
+     <ListContact />
+   </footer>
        
 
 
@@ -23,6 +25,7 @@
 import Header from '@/components/Header.vue'
 import Content from '@/components/Content.vue'
 import Navigation from '@/components/Navigation.vue'
+import ListContact from '@/components/ListContact.vue'
 
 
 export default {
@@ -31,6 +34,7 @@ export default {
        Header,
        Content,
        Navigation,
+       ListContact,
   },
 }
 
