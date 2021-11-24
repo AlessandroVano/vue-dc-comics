@@ -17,7 +17,8 @@
 
 <script>
 import Card from '@/components/Card.vue';
-import {Cards} from '@/devData/prodItem.js';
+import {Cards}   from '@/devData/prodItem.js';
+
 
 export default {
  name: 'Contenuto',

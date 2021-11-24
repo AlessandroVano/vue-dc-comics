@@ -19,7 +19,7 @@ props: {
 img{
  width: 120px;
  height: 120px;
- object-fit: cover ;
+ object-fit: cover;
  object-position: top;
 }
 h5 {
