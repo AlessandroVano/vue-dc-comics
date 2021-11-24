@@ -1,13 +1,16 @@
 <template>
  <section >
   <!--    <h1 class="container">-- Content goes here -- </h1> -->
-     <ul class="boxes container">
+  <div class="container">
+     <ul class="boxes ">
          <li v-for="(card, index) in cards" :key="`card ${index}`">
-         <img :src="card.thumb" :alt="card.series">
-         <h4> {{card.series}} </h4>
+         <img class="img-form" :src="card.thumb" :alt="card.series">
+         <h5> {{card.series}} </h5>
 
          </li>
      </ul>
+
+  </div>
  </section>
 </template>
 
@@ -102,6 +105,32 @@ section {
     color: white;
 }
 
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-left: 140px;
+    
+
+    li {
+        width: calc(100% / 6);
+        
+    }
+}
+
+img{
+ width: 120px;
+ height: 120px;
+ object-fit: cover ;
+ object-position: top;
+}
+h5 {
+    font-size: 10px;
+    text-transform: uppercase;
+    width: 140px;
+    margin-top: 0.8rem ;
+    margin-bottom: 2rem;
+}
 
 
 </style>
