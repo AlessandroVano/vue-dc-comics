@@ -1,11 +1,9 @@
 <template>
  <section >
   <!--    <h1 class="container">-- Content goes here -- </h1> -->
-     <ul class="boxes">
-         <li v-for= "(card, index) in cards"
-          :key= "`card ${index}`">
-
-         <img :src= "card.thumb" :alt= "card.series" >
+     <ul class="boxes container">
+         <li v-for="(card, index) in cards" :key="`card ${index}`">
+         <img :src="card.thumb" :alt="card.series">
          <h4> {{card.series}} </h4>
 
          </li>
@@ -18,7 +16,7 @@ export default {
  name: 'Contenuto',
  data() {
      return {
-        products: [
+        cards: [
     {
         thumb: 'https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2018/09/AC1000_DLX_162-001_HD_5ba13723281ab0.37845353.jpg?itok=ZsI-C5eX',
         price: '$19.99',
@@ -103,6 +101,7 @@ section {
     background-color: black;
     color: white;
 }
+
 
 
 </style>
