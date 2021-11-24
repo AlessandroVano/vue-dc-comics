@@ -134,7 +134,8 @@ name: 'ListContact'
 <style scoped lang="scss">
 section {
   background-image: url(../assets/footer-bg.jpg) ;
-  
+   background-repeat: no-repeat;
+     background-size: cover;
   
 }
  img {
