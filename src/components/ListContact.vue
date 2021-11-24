@@ -4,6 +4,7 @@
     <!-- colonne -->
 
     <div class="container columns">
+      <div>
       <div class="link">
      <div>
        <h2>DE COMICS</h2>
@@ -110,13 +111,15 @@
 
       </div>
 
+      </div>
+
    
      <!-- logo -->
-   <!--   <div>
+      <div>
        <a href="">
          <img src="../assets/dc-logo-bg.png" alt="">
        </a>
-     </div> -->
+     </div> 
       </div>
 
   </section>
@@ -130,15 +133,20 @@ name: 'ListContact'
 
 <style scoped lang="scss">
 section {
-  background-image: url(../assets/footer-bg.jpg);
-}
-/* img {
-  width: 400px;
+  background-image: url(../assets/footer-bg.jpg) ;
   
-} */
+  
+}
+ img {
+  width: 400px;
+  overflow: hidden;
+  
+  
+} 
 .link {
   display: flex;
 }
+
  .columns {
    display: flex;
    justify-content: space-between;

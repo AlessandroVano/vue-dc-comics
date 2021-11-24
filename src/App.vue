@@ -8,6 +8,7 @@
    
    <!-- MAIN -->
    <main>
+     <Hero />
     <Content />
 
     <Navigation />
@@ -33,6 +34,7 @@ import Content from '@/components/Content.vue'
 import Navigation from '@/components/Navigation.vue'
 import ListContact from '@/components/ListContact.vue'
 import Iscrizione from '@/components/Iscrizione.vue'
+import Hero from '@/components/Hero.vue'
 
 
 
@@ -44,8 +46,7 @@ export default {
        Navigation,
        ListContact,
        Iscrizione,
-      
-   
+       Hero,
   },
 }
 

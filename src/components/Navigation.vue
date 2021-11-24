@@ -35,7 +35,11 @@ name: 'Navigation'
 <style scoped lang="scss">
 section {
     background-color: rgb(68, 68, 247);
-    padding: 2rem 0;
+     padding: 2rem 0;
+     
+     
+    
+  
     
 }
 .icon {

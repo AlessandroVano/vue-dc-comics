@@ -51,8 +51,7 @@ name: 'Iscrizione'
 <style scoped lang="scss">
 section {
     background-color:rgb(73, 73, 73);
-     
-      
+    
 }
 
 .df {
