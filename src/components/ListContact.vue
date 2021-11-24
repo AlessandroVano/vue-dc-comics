@@ -1,12 +1,12 @@
 <template>
   <section >
-
+    
     <!-- colonne -->
-
-    <div class="container columns">
-      <div>
-      <div class="link">
-     <div>
+   <div class="bg">
+     <div class="container columns">
+       <div>
+       <div class="link">
+       <div>
        <h2>DE COMICS</h2>
        <nav>
          <ul>
@@ -43,9 +43,9 @@
            </li>
          </ul>
        </nav>
-     </div>
+       </div>
 
-     <div>
+       <div>
        <h2> DC</h2>
        <nav>
          <ul>
@@ -84,9 +84,9 @@
            </li>
          </ul>
        </nav>
-     </div>
+       </div>
 
-     <div> 
+       <div> 
        <h2>SITES</h2>
        <nav>
          <ul>
@@ -107,20 +107,22 @@
            </li>
          </ul>
        </nav>
+       </div>
+
+       </div>
+
      </div>
-
-      </div>
-
-      </div>
 
    
      <!-- logo -->
-      <div>
+     <!--  <div>
        <a href="">
          <img src="../assets/dc-logo-bg.png" alt="">
        </a>
-     </div> 
+     </div>  -->
       </div>
+      
+    </div>
 
   </section>
 </template>
@@ -137,6 +139,11 @@ section {
    background-repeat: no-repeat;
      background-size: cover;
   
+}
+.bg {
+   background-image: url(../assets/dc-logo-bg.png) ;
+    background-repeat: no-repeat;
+  background-position: 900px -50px;
 }
  img {
   width: 400px;
