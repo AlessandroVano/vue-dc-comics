@@ -9,7 +9,7 @@
    <!-- MAIN -->
    <main>
      <Hero />
-    <Content />
+    <ContentCard />
 
     <Navigation />
    </main>
@@ -30,7 +30,7 @@
 
 <script>
 import Header from '@/components/Header.vue'
-import Content from '@/components/Content.vue'
+import ContentCard from '@/components/ContentCard.vue'
 import Navigation from '@/components/Navigation.vue'
 import ListContact from '@/components/ListContact.vue'
 import Iscrizione from '@/components/Iscrizione.vue'
@@ -42,7 +42,7 @@ export default {
   name: 'App',
   components: {
        Header,
-       Content,
+       ContentCard,
        Navigation,
        ListContact,
        Iscrizione,
