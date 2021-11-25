@@ -2,7 +2,7 @@
   <section>
       <div class="container icon ">
         <a class="banner" href="/digital-comincs">
-        <img src="../assets/buy-comics-digital-comics.png" alt="digital-comincs">
+        <img class="comics-img" src="../assets/buy-comics-digital-comics.png" alt="digital-comincs">
         <span>DIGITAL COMICS</span>
         </a>
           <a class="banner" href="/dc-merchandise">
@@ -14,11 +14,11 @@
         <span>SUBSCRIPTION</span>
         </a>
           <a class="banner" href="/comic-shop-location">
-        <img src="../assets/buy-comics-shop-locator.png" alt="comic-shop-location">
+        <img class="shop-loc-img" src="../assets/buy-comics-shop-locator.png" alt="comic-shop-location">
         <span>COMIC SHOP LOCATION</span>
         </a>
           <a class="banner" href="/dc-power-visa">
-        <img src="../assets/buy-dc-power-visa.svg" alt="dc-power-visa">
+        <img class="visa-img" src="../assets/buy-dc-power-visa.svg" alt="dc-power-visa">
         <span>DC POWER VISA</span>
         </a>
  
@@ -49,8 +49,20 @@ img {
    width: 35px;
    object-fit: contain;
 }
+  .comics-img {
+    width: 28px;
+  }
+
+  .shop-loc-img {
+    width: 25px;
+  }
+  .visa-img {
+    width: 40px;
+  }
+
+
 span {
-    margin-top: 1.2rem;
+    margin-top: 0.87rem;
     font-size: 12px;
     padding-left: 15px;
     color: white;

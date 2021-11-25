@@ -2,7 +2,7 @@
 
  <section >
      <button class="btn2 mr"> <h4>Current Series</h4></button>
-  <!--    <h1 class="container">-- Content goes here -- </h1> -->
+  
   <div class="container">
      
      <ul class="boxes ">
